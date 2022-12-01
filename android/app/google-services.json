@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "437425472246",
+    "project_id": "nama-e8bf9",
+    "storage_bucket": "nama-e8bf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437425472246:android:5a334753362ddb326722d7",
+        "android_client_info": {
+          "package_name": "com.DarkshanDev.sinol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437425472246-f669neah6teo83krnoai4n9rdgl6i5p0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfRruG8mU1QukBBSjRB_MWgkD91R_cW8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437425472246-f669neah6teo83krnoai4n9rdgl6i5p0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
