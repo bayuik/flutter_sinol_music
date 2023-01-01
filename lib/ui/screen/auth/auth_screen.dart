@@ -9,6 +9,7 @@ import 'package:masterstudy_app/ui/bloc/auth/auth_event.dart';
 import 'package:masterstudy_app/ui/bloc/auth/auth_state.dart';
 import 'package:masterstudy_app/ui/screen/main/main_screen.dart';
 import 'package:masterstudy_app/ui/screen/restore_password/restore_password_screen.dart';
+import 'package:masterstudy_app/ui/screen/auth/privacy_policy_page.dart';
 
 class AuthScreenArgs {
   final OptionsBean? optionsBean;
@@ -258,6 +259,17 @@ class _SignUpPageState extends State<_SignUpPage> {
                   ),
                 ),
               ),
+              FlatButton(
+                child: Text('Privacy Policy'),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => PrivacyPolicyPage(),
+                    ),
+                  );
+                },
+              )
             ],
           ),
         );
@@ -490,6 +502,17 @@ class _SignInPageState extends State<_SignInPage> {
                       .pushNamed(RestorePasswordScreen.routeName);
                 },
               ),
+              FlatButton(
+                child: Text('Privacy Policy'),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => PrivacyPolicyPage(),
+                    ),
+                  );
+                },
+              )
             ],
           ),
         );
